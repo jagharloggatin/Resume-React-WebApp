@@ -1,0 +1,24 @@
+/*.footer {*/
+/*    text-align: center;*/
+/*    padding: 3px;*/
+/*    background-color: #2B262D;*/
+/*    color: #fff;*/
+/*}*/
+
+.footer a, p {
+    color: #fff;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #2B262D;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;}
+

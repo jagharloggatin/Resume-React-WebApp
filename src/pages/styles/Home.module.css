@@ -1,0 +1,33 @@
+.homeWrapper {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.downloadButtons {
+    padding: 5px;
+}
+
+.headerDiv {
+    border: thick solid black;
+        display: flex;
+        flex-direction: column;
+        height: min(60%)
+}
+
+.footerDiv {
+    border: thick solid black;
+    height: min(40%);
+}
+
+
+.homeHeadlinesDiv h1,h3 {
+    font-family: 'SeoulHangang', sans-serif;
+}
+
+.homeHeadlinesDiv img {
+    position: absolute;
+    top: 9%;
+    right: 10%;
+    height: min(50%,50%);
+}

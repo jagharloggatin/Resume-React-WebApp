@@ -1,0 +1,34 @@
+.navbar {
+    padding: 0;
+    background-color: rgba(70, 81, 96, 0.8);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    transition: background-color 50ms ease-in, opacity 50ms ease;
+    font-weight: 450;
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    cursor: pointer;
+    /*height: 100%;*/
+    font-size: 1.4rem;
+    /*margin: 30px auto;*/
+}
+
+.navbar li, a{
+    text-decoration: none;
+    font-family: 'SeoulHangang', sans-serif;
+    color: #fff;
+}
+
+.navbar li:hover {
+    background: rgb(44, 96, 85)
+}
