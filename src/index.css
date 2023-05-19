@@ -6,31 +6,38 @@ body, html, * {
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
   margin: 0;
+  /*overflow: hidden;*/
   padding: 0;
-  color: #fff;
+  color: rgba(0, 0, 0, 1);
 
 }
 
-body::before {
-  content: "";
-  background: url('../public/wp2888519.jpg') no-repeat center center fixed;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.7;
-  z-index: -1;
+body {
+   background-color: rgba(201, 206, 206, 0.6);;
+}
+
+/*body::before {*/
+/*  content: "";*/
+/*  background: url('../public/wp2888519.jpg') no-repeat center center fixed;*/
+/*  background-size: cover;*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  opacity: 0.7;*/
+/*  z-index: -1;*/
+/*}*/
+
+::selection {
+  background-color: rgba(32, 36, 40, 0.6);
+  color: #fff;
 }
 
 @font-face {
   font-family: 'SeoulHangang';
   src: url(../fonts/SeoulHangangCBL.ttf) format("truetype");
 }
-
-
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

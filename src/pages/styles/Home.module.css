@@ -1,33 +1,92 @@
+/*################### MAIN DIVS ###################*/
+
 .homeWrapper {
-    padding: 0;
+    text-align: start;
+}
+.homeContent {
+    /*padding: 0;*/
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    /*padding: max(1vh, .5rem) 1rem;*/
+    justify-content: center;
+
+}
+/*################### HEADER ###################*/
+
+
+.homeWrapper .pageHeader{
+    margin: max(2vh, 2rem);
+}
+
+.homeWrapper .pageHeader h2{
+    font-weight: 350;
+}
+
+.homeWrapper .homeContent .buttonDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.homeWrapper .downloadButtons{
+    /*white-space: nowrap;*/
+    border: none;
+    padding: max(1vh, .5rem) 1rem;
+    min-width: 50%;
+    background-color: #88818c;
+    color: #fff;
+}
+
+.homeWrapper .downloadButtons:hover{
+    color: #2B262D;
+    background-color: #fff;
+    /*background: rgb(51, 51, 115);*/
 }
 
 .downloadButtons {
     padding: 5px;
 }
 
-.headerDiv {
-    border: thick solid black;
-        display: flex;
-        flex-direction: column;
-        height: min(60%)
+.detailsInfo {
+    /*border: thick solid black;*/
+    display: flex;
+
+    flex-direction: column;
+        /*height: min(60%)*/
 }
 
-.footerDiv {
-    border: thick solid black;
-    height: min(40%);
+/*################### CARD INFO ###################*/
+
+.aboutInfo {
+    /*border: thick solid black;*/
+    /*height: min(40%);*/
 }
 
 
-.homeHeadlinesDiv h1,h3 {
-    font-family: 'SeoulHangang', sans-serif;
+.cardHeadlineDiv h3 {
+    /*font-family: 'SeoulHangang', sans-serif;*/
+    font-weight: 600;
+    font-size: max(1rem, .7rem);
+    padding: max(1vh, 1rem) 1.5rem;
+    text-align: center;
+    color: #1e1f21;
+
+}
+.homeContent .imageDiv{
+    padding: 0;
+    margin: 0;
 }
 
-.homeHeadlinesDiv img {
-    position: absolute;
-    top: 9%;
-    right: 10%;
-    height: min(50%,50%);
+.homeContent .imageDiv img {
+    max-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
 }
+
+.homeContent .details {
+    max-width: 25%;
+}
+.homeContent .about {
+    max-width: 55%;
+}
+
+

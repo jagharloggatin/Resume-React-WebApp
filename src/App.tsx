@@ -15,7 +15,6 @@ function App() {
     return (
         <div className={styles.wrapper}>
             <Navbar/>
-            <Card>
                 <Routes>
                     <Route path="/" element={<Home/>}></Route>
                     <Route path="/about" element={<About/>}></Route>
@@ -23,7 +22,6 @@ function App() {
                     <Route path="/skills" element={<Skills/>}></Route>
                     <Route path="/projects" element={<Projects/>}></Route>
                 </Routes>
-            </Card>
 
             {/*<Footer/>*/}
         </div>

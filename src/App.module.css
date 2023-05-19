@@ -2,10 +2,10 @@
 .wrapper{
   height: 100vh;
   color: white;
-  display: flex;
-  flex-direction: row;
+  width: 100dvw;
+  display: block;
+  /*flex-direction: column;*/
 }
-
 
 
 /*div {*/
