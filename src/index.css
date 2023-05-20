@@ -15,18 +15,18 @@ body {
    background-color: rgba(201, 206, 206, 1);;
 }
 
-/*body::before {*/
-/*  content: "";*/
-/*  background: url('../public/images/HD-wallpaper-green-3d-mosaic-texture-green-mosaic-background-gradient-abstraction-texture-green-abstract-background-creative-green-backgrounds.jpg') no-repeat center center fixed;*/
-/*  background-size: cover;*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  bottom: 0;*/
-/*  opacity: 0.4;*/
-/*  z-index: -1;*/
-/*}*/
+body::before {
+  content: "";
+  background: url('../public/images/purple2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  z-index: -1;
+}
 
 ::selection {
   background-color: rgba(32, 36, 40, 0.6);

@@ -31,29 +31,8 @@ const About: React.FC = () => {
                                 <div><span>EXPERIENCE</span></div>
                                 <div>0 Years</div>
                                 <div><span>DEGREEE</span></div>
-                                <div>System Utvecklare</div>
-
+                                <div>Systemutvecklare</div>
                             </div>
-                            {/*<table className={styles.myTable}>*/}
-                            {/*    <tbody>*/}
-                            {/*    <tr>*/}
-                            {/*        <td><span>Name:</span></td>*/}
-                            {/*        <td>Jonathan Bravo</td>*/}
-                            {/*    </tr>*/}
-                            {/*    <tr>*/}
-                            {/*        <td><span>Age:</span></td>*/}
-                            {/*        <td>33 Years</td>*/}
-                            {/*    </tr>*/}
-                            {/*    <tr>*/}
-                            {/*        <td><span>Location:</span></td>*/}
-                            {/*        <td>Stockholm, Järfälla</td>*/}
-                            {/*    </tr>*/}
-                            {/*    <tr>*/}
-                            {/*        <td><span>Experience:</span></td>*/}
-                            {/*        <td>0 Years</td>*/}
-                            {/*    </tr>*/}
-                            {/*    </tbody>*/}
-                            {/*</table>*/}
                         </div>
                     </div>
                 }

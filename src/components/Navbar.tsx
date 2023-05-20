@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
                 </Link>
                 <Link to="/projects">
                     <li>
-                        <span className={styles.icon}><WorkIcon/></span>PORTFOLIO
+                        <span className={styles.icon}><WorkIcon/></span>WORK
                     </li>
                 </Link>
                 <Link to="/skills">

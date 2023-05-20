@@ -1,6 +1,6 @@
 .card {
     border-radius: 4px;
-    background-color: rgba(252, 252, 252, 1);
+    background-color: rgba(252, 252, 252, 0.4);
     box-sizing:border-box;
     /*margin: .5rem max(2vh, 1.5rem) max(2vh, 1.5rem);*/
     /*justify-content: center;*/

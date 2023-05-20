@@ -1,0 +1,10 @@
+.content {
+    justify-content: center;
+}
+
+.content .firstCard {
+    max-width: 15%;
+}
+.content .secondCard {
+    max-width: 85%;
+}

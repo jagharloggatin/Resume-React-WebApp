@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.module.css';
 import {Route, Routes} from 'react-router-dom';
-import Projects from "./pages/Projects";
+import Work from "./pages/Work";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Contact from "./pages/Contact";
@@ -17,7 +17,7 @@ function App() {
                 <Route path="/" element={<About/>}></Route>
                 <Route path="/contact" element={<Contact/>}></Route>
                 <Route path="/skills" element={<Skills/>}></Route>
-                <Route path="/projects" element={<Projects/>}></Route>
+                <Route path="/projects" element={<Work/>}></Route>
             </Routes>
         </div>
     );
