@@ -1,9 +1,89 @@
-.about-wrapper {
+.content {
+    justify-content: center;
+}
+
+.content .firstCard {
+    max-width: 25%;
+}
+.content .secondCard {
+    max-width: 75%;
+}
+
+.content .firstCard, .content .secondCard {
+    margin-top: 10px;
+}
+
+.content .imageDiv{
     padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+.content .imageDiv img {
+    /*max-width: 100%;*/
+    /*min-width: 50%;*/
+    width: 100%;
+    object-fit: cover;
+}
+
+.content .buttonDiv{
     display: flex;
+    flex-direction: row;
 }
 
-.about-headlines-div {
-
-
+.content .buttonDiv .downloadButtons{
+    /*white-space: nowrap;*/
+    border: none;
+    padding: max(1vh, .5rem) 1rem;
+    min-width: 50%;
+    background-color: gray;
+    color: #fff;
 }
+
+
+
+
+.content .buttonDiv .downloadButtons:hover{
+    color: #2B262D;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    /*background: rgb(51, 51, 115);*/
+}
+
+.content .profileInfo {
+    padding: 0.5vh;
+    font-size: 0.7rem;
+    margin: 0 auto;
+}
+
+.content .profileInfo .profileInfoGrid {
+    display: grid;
+    padding: 1rem;
+    text-align: start;
+    grid-gap: min(1vh, 1.5rem);
+    grid-template-columns: 1fr 1fr;
+}
+
+.content .profileInfo .profileInfoGrid {
+    font-weight: 500;
+}
+
+.content table span {
+    font-weight: 600;
+    margin-right: min(1rem, 2rem);
+}
+.aboutContainer .presentation {
+    padding: 20px;
+}
+
+
+/*.content .profileInfo p span {*/
+/*    display: flex;*/
+/*    justify-content: space-between;}*/
+
+
+/*.profileInfo div {*/
+
+/*}*/

@@ -1,11 +1,15 @@
-
 .wrapper{
   height: 100vh;
   color: white;
-  width: 100dvw;
+  /*width: 100dvw;*/
   display: block;
-  /*flex-direction: column;*/
 }
+
+.wrapper .pageContent {
+
+}
+
+
 
 
 /*div {*/

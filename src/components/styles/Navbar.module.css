@@ -2,6 +2,7 @@
     padding: 0;
     background-color: rgba(255, 255, 255, 1);
     /*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);*/
+    flex-basis: auto; /* This will set their heights to their content's height by default */
 }
 
 .navbar ul{
@@ -11,19 +12,26 @@
 }
 
 .navbar ul li {
-    transition: background-color 50ms ease-in, color 50ms ease-in;
+    /*transition: background-color 50ms ease-in, color 50ms ease-in;*/
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
-    font-size: max(1rem, .5rem);
-    padding: max(1vh, .5rem) 1rem;
+    font-size: max(1.2rem, .5rem);
+    padding: max(2vh, 1vh) 1rem max(1.5vh, .5rem);
     /*font-family: 'SeoulHangang', sans-serif;*/
     color: #1e1f21;
+    justify-content: center;
+    display: flex;
 }
 
 .navbar ul a {
     text-decoration: none;
-    min-width: 20%;
+    min-width: 25%;
+
+}
+.icon {
+    margin-right: max(.2rem);
+    /*transition: background-color 50ms ease-in, color 50ms ease-in;*/
 }
 
     /*.navbar ul li {*/
@@ -32,7 +40,7 @@
 
 
 
-.navbar li:hover {
+.navbar li:hover, .navbar li:hover .icon {
     background: rgb(51, 51, 115);
     color: #fff;
 }

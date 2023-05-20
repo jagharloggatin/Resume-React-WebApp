@@ -10,7 +10,7 @@ interface CardProps {
 const Card: FC<CardProps> = ({children, className, title}) => {
     return (
         <div className={`${styles.card} ${className}`}>
-            {title && <h2>{title}</h2>}
+            {title && <h2 className={styles.cardTitle}>{title}</h2>}
             {children}
         </div>
     );

@@ -9,23 +9,22 @@ body, html, * {
   /*overflow: hidden;*/
   padding: 0;
   color: rgba(0, 0, 0, 1);
-
 }
 
 body {
-   background-color: rgba(201, 206, 206, 0.6);;
+   background-color: rgba(201, 206, 206, 1);;
 }
 
 /*body::before {*/
 /*  content: "";*/
-/*  background: url('../public/wp2888519.jpg') no-repeat center center fixed;*/
+/*  background: url('../public/images/HD-wallpaper-green-3d-mosaic-texture-green-mosaic-background-gradient-abstraction-texture-green-abstract-background-creative-green-backgrounds.jpg') no-repeat center center fixed;*/
 /*  background-size: cover;*/
 /*  position: absolute;*/
 /*  top: 0;*/
 /*  left: 0;*/
 /*  right: 0;*/
 /*  bottom: 0;*/
-/*  opacity: 0.7;*/
+/*  opacity: 0.4;*/
 /*  z-index: -1;*/
 /*}*/
 
