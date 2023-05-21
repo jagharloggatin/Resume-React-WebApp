@@ -10,14 +10,14 @@ const About: React.FC = () => {
             <PageCard
                 // pageTitle="RESUME"
                 cardTitle1="PROFESSIONAL DETAILS"
-                cardTitle2="ABOUT"
+                cardTitle2="RESUME"
                 cardClassName1={styles.firstCard}
                 cardClassName2={styles.secondCard}
                 children1={
                     <div>
 
                         <div className={styles.imageDiv}>
-                            <img alt="me" src='/images/me2.png'/>
+                            <img alt="me" src='/images/meblackandwhite.png'/>
                         </div>
 
                         <div className={styles.profileInfo}>
@@ -33,11 +33,16 @@ const About: React.FC = () => {
                                 <div><span>DEGREEE</span></div>
                                 <div>Systemutvecklare</div>
                             </div>
+                            <div className={styles.buttonDiv}>
+                                <button className={styles.downloadButtons}><DownloadIcon/>Resume</button>
+                                <button className={styles.downloadButtons}><DownloadIcon/>Cover Letter</button>
+                            </div>
                         </div>
                     </div>
                 }
                 children2={<div>
-                    <hr/>
+
+
                     <div className={styles.aboutContainer}>
                         <div className={styles.presentation}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eveniet quaerat qui
@@ -54,11 +59,15 @@ const About: React.FC = () => {
                             reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod. Aspernatur
                             dicta quam quo repellat veritatis voluptatibus.
                         </div>
+
+                        <div className={styles.presentation}>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eveniet quaerat qui
+                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod. Aspernatur
+                            dicta quam quo repellat veritatis voluptatibus.
+                        </div>
+
                     </div>
-                    <div className={styles.buttonDiv}>
-                        <button className={styles.downloadButtons}>Resume</button>
-                        <button className={styles.downloadButtons}>Cover Letter</button>
-                    </div>
+
 
                 </div>}
             />

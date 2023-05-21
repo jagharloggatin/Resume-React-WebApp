@@ -12,6 +12,10 @@ const Navbar: React.FC = () => {
 
         <nav className={styles.navbar}>
             <ul>
+                <li id={styles.logo}>
+                    <span id={styles.web}>WEB</span><span id={styles.cat}>CAT</span>
+                </li>
+
                 <Link to="/">
                     <li>
                         <span className={styles.icon}><InfoIcon/></span> ABOUT
@@ -20,11 +24,6 @@ const Navbar: React.FC = () => {
                 <Link to="/projects">
                     <li>
                         <span className={styles.icon}><WorkIcon/></span>WORK
-                    </li>
-                </Link>
-                <Link to="/skills">
-                    <li>
-                        <span className={styles.icon}><SkillsIcon/></span>SKILLS
                     </li>
                 </Link>
                 <Link to="/contact">

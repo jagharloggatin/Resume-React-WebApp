@@ -5,6 +5,17 @@
     flex-basis: auto; /* This will set their heights to their content's height by default */
 }
 
+#logo{
+    justify-content: start;
+    font-size: max(2rem, .5rem);
+    padding: 0;
+    font-family: SeoulHangang, -apple-system, sans-serif;
+}
+
+#logo:hover {
+    background-color: transparent !important;
+}
+
 .navbar ul{
     list-style: none;
     display: flex;
@@ -19,19 +30,27 @@
     font-size: max(1.2rem, .5rem);
     padding: max(2vh, 1vh) 1rem max(1.5vh, .5rem);
     /*font-family: 'SeoulHangang', sans-serif;*/
-    color: #1e1f21;
     justify-content: center;
     display: flex;
+    min-width: 40%;
 }
 
 .navbar ul a {
     text-decoration: none;
-    min-width: 25%;
+    min-width: 20%;
 
 }
 .icon {
     margin-right: max(.2rem);
     /*transition: background-color 50ms ease-in, color 50ms ease-in;*/
+}
+
+.navbar .navbarImgDiv img {
+    object-fit: cover;
+    width: 2vw;
+    position: absolute;
+    height: 4vh;
+    top: 10px;
 }
 
     /*.navbar ul li {*/
@@ -40,7 +59,8 @@
 
 
 
-.navbar li:hover, .navbar li:hover .icon {
+.navbar li:hover:not(.logo), .navbar li:hover .icon {
     background: rgba(118, 72, 121, 1);
     color: #fff;
 }
+
