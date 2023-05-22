@@ -17,3 +17,15 @@
     /*background: rgb(51, 51, 115);*/
 
 }
+
+
+@media screen and (max-width: 1000px) {
+
+    .downloadButtons {
+        /*white-space: nowrap;*/
+        padding: .1rem;
+        font-size: .7rem;
+        background-image: linear-gradient(180deg, #541185, #322865 50%);
+    }
+
+}

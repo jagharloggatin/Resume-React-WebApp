@@ -1,20 +1,44 @@
 .card {
     border-radius: 4px;
     background-color: rgba(252, 252, 252, 0.08);
-    box-sizing:border-box;
     /*margin: .5rem max(2vh, 1.5rem) max(2vh, 1.5rem);*/
     /*justify-content: center;*/
     padding: 0;
+    max-height: 85vh;
+    max-width: 90vw;
     flex: 1;
+    overflow: auto;
+}
+
+.card::-webkit-scrollbar {
+    width: 4px;
+}
+
+.card::-webkit-scrollbar-track {
+    background: #5546a2;
+}
+
+.card::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #541185, #322865 50%);
+    border-radius: 1rem;
 }
 
 .cardTitle {
     font-weight: 500;
-    font-size: max(1.1rem, .7rem);
-    padding: max(1vh, .5rem) 1.5rem;
+    font-size: 1rem;
+    /*padding: max(1vh, .5rem) 1.5rem;*/
+    padding: .5rem;
     text-align: center;
 }
+
+
 
 /*.card > * {*/
 /*    flex: 1;*/
 /*}*/
+
+@media screen and (max-width: 1000px) {
+    .cardTitle {
+        font-size: .8rem;
+    }
+}

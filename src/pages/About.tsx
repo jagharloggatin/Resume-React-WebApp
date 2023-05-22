@@ -42,29 +42,35 @@ const About: React.FC = () => {
                 children2={<div className={styles.secondCardContent}>
                     <div className={styles.aboutContainer}>
                         <div className={styles.presentation}>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eveniet quaerat qui
-                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod.
-                            Aspernatur
-                            dicta quam quo repellat veritatis voluptatibus.
+                            My name is Jonathan Bravo and I am currently studying to be a softwaredeveloper at a
+                            vocational college. With my graduation day of June 2nd insight, I am now in search of an
+                            exciting job within the IT industry where Ican apply my knowledge and skills.
                         </div>
                         <div className={styles.presentation}>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eveniet quaerat qui
-                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod.
-                            Aspernatur
-                            dicta quam quo repellat veritatis voluptatibus.
+                            My passion for programming began a few years ago when I was working for a company performing
+                            hardware repairs for Lenovo, Dell, and HP.There I met like-minded tech enthusiasts who
+                            introduced me to programming. After exploring this interest for a while, I decided to deepen
+                            my
+                            understanding of the subject by studying software development.
                         </div>
                         <div className={styles.presentation}>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eveniet quaerat qui
-                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod.
-                            Aspernatur
-                            dicta quam quo repellat veritatis voluptatibus.
+                            During my studies, I have strengthened my technical skills and gained a broad understanding
+                            of programming and IT systems. I am a social,responsible, and diligent individual who always
+                            strives to achieve the best possible results. I am punctual, rarely sick, and maintain a
+                            healthy lifestyle, which includes regular exercise and good sleep habits
                         </div>
 
                         <div className={styles.presentation}>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eveniet quaerat qui
-                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod.
-                            Aspernatur
-                            dicta quam quo repellat veritatis voluptatibus.
+                            I am currently undertaking an internship where I am gaining further practical experience in
+                            my field. I have good references from previous employers and my current internship which I
+                            am
+                            more than happy to share in an interview.
+                        </div>
+
+                        <div className={styles.presentation}>
+                            I am confident that I would be an asset to your company and look forwardto the opportunity
+                            to discuss how my skills and experiences cancontribute to your business. Thank you for
+                            taking the time to read mypersonal letter and I look forward to hearing from you.
                         </div>
 
                     </div>

@@ -5,4 +5,16 @@
     grid-gap: min(1vh, 1.5rem);
     grid-template-columns: 1fr 1fr;
     font-weight: 500;
+    font-size: .8rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .profileInfoGrid {
+        display: grid;
+        padding: .5rem;
+        text-align: start;
+        font-size: .7rem;
+        grid-gap: min(.3vh, .5rem);
+        grid-template-columns: 1fr 1fr;
+    }
 }

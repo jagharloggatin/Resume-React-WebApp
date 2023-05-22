@@ -4,14 +4,15 @@
     justify-content: center;
     /*margin: 0 auto;*/
     /*margin: 50px;*/
-    margin: 2vh min(4vh, 1.5rem);
+    margin-inline: 2vw;
+    /*margin: 2vh min(4vh, 1.5rem);*/
 
 }
 
 .cardLayout {
     display: flex;
     /*margin: 0 auto;*/
-    gap: 2rem max(2vh, 4rem);
+    gap: 3vw;
     justify-content: center;
 }
 

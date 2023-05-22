@@ -3,9 +3,7 @@ import {Link} from 'react-router-dom';
 import styles from './styles/Navbar.module.css'
 import InfoIcon from '@mui/icons-material/InfoOutlined';
 import WorkIcon from '@mui/icons-material/WorkOutline';
-import SkillsIcon from '@mui/icons-material/BuildOutlined';
-import ContactIcon from '@mui/icons-material/CallOutlined';
-import MenuIcon from '@mui/icons-material/Menu';
+import ContactIcon from '@mui/icons-material/Email';import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 // import { styled } from "@mui/system";

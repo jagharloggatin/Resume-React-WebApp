@@ -34,7 +34,7 @@
     display: flex;
     min-width: 40%;
     /*background-color: transparent;*/
-    background: rgba(255, 87, 87, 0.1);
+    background: rgba(255, 87, 87, 0.03);
 }
 
 .content li:hover {

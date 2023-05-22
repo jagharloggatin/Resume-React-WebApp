@@ -1,7 +1,44 @@
 .firstCard {
-    max-width: 80%;
+    max-width: 40%;
+    min-height: 40vh;
+    padding: 1rem;
 }
 
 .secondCard {
     max-width: 0%;
 }
+
+.content .contactForm{
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+}
+
+.content .contactForm input{
+    color: #2B262D !important;
+}
+
+.content .contactForm button {
+    border: none;
+    /*padding: max(.3rem, .2rem) .5rem;*/
+    min-width: 49%;
+    color: #fff;
+    font-size: 1rem;
+    justify-content: center;
+    padding: 0;
+    font-weight: 600;
+    background-image: linear-gradient(180deg, #541185, #322865 50%);
+    border-radius: .2rem;
+}
+
+.content .contactForm button:hover {
+    background-image: linear-gradient(180deg, #7925b6, #5546a2 50%);
+    cursor: pointer;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+}
+

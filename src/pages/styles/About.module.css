@@ -5,18 +5,17 @@
 .content .firstCard {
     max-width: 25%;
 }
+
 .content .secondCard {
     max-width: 75%;
 }
 
 .content .secondCard .secondCardContent{
-    overflow: hidden;
-    text-overflow: ellipsis;
+
 }
 
 .aboutContainer .presentation {
-    padding: 20px;
-    overflow: hidden;
+    padding: 1rem;
 }
 
 
@@ -41,19 +40,36 @@
 
 .content .profileInfo {
     padding: 0.5vh;
-    white-space: nowrap;
-    font-size: 0.8rem;
     margin: 0 auto;
 }
 
 .content .profileInfo .profileInfoGrid {
     display: grid;
-    padding: 1rem;
     text-align: start;
     grid-gap: min(1vh, 1.5rem);
     grid-template-columns: 1fr 1fr;
     font-weight: 500;
 }
 
+@media screen and (max-width: 1000px) {
+    .buttonDiv {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .content .firstCard {
+        max-width: 35%;
+    }
+
+    .content .secondCard {
+        max-width: 65%;
+    }
+
+    .aboutContainer .presentation {
+        padding: .5rem;
+        font-size: .8rem;
+    }
+
+}
 
 
