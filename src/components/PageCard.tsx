@@ -6,8 +6,8 @@ interface PageProps {
     children1?: ReactNode;
     children2?: ReactNode;
     pageTitle?: string;
-    cardTitle1: string;
-    cardTitle2: string;
+    cardTitle1?: string;
+    cardTitle2?: string;
     cardClassName1?: string;
     cardClassName2?: string;
 }

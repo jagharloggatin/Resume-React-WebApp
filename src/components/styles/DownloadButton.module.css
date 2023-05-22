@@ -1,0 +1,19 @@
+.downloadButtons{
+    /*white-space: nowrap;*/
+    border: none;
+    padding: max(.3rem, .2rem) .5rem;
+    min-width: 49%;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    background-image: linear-gradient(180deg, #541185, #322865 50%);
+    border-radius: .2rem;
+}
+
+.downloadButtons:hover{
+    background-image: linear-gradient(180deg, #7925b6, #5546a2 50%);
+    cursor: pointer;
+    /*background: rgb(51, 51, 115);*/
+
+}

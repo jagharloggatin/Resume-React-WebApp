@@ -1,6 +1,7 @@
-.content .firstCard {
-    max-width: 25%;
+.firstCard {
+    max-width: 80%;
 }
-.content .secondCard {
-    max-width: 75%;
+
+.secondCard {
+    max-width: 0%;
 }

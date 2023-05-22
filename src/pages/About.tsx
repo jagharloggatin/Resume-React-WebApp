@@ -2,6 +2,8 @@ import React from 'react';
 import PageCard from '../components/PageCard';
 import styles from './styles/About.module.css'
 import DownloadIcon from '@mui/icons-material/Download';
+import DownloadButton from "../components/DownloadButton";
+import ProfileGrid from "../components/ProfileGrid";
 
 const About: React.FC = () => {
 
@@ -17,52 +19,51 @@ const About: React.FC = () => {
                     <div>
 
                         <div className={styles.imageDiv}>
-                            <img alt="me" src='/images/meblackandwhite.png'/>
+                            <img alt="me" src='/images/me2.png'/>
                         </div>
 
                         <div className={styles.profileInfo}>
-                            <div className={styles.profileInfoGrid}>
-                                <div><span>NAME</span></div>
-                                <div>Jonathan Bravo</div>
-                                <div><span>AGE</span></div>
-                                <div>33</div>
-                                <div><span>LOCATION</span></div>
-                                <div>Stockholm, Järfälla</div>
-                                <div><span>EXPERIENCE</span></div>
-                                <div>0 Years</div>
-                                <div><span>DEGREEE</span></div>
-                                <div>Systemutvecklare</div>
-                            </div>
+                            <ProfileGrid/>
                             <div className={styles.buttonDiv}>
-                                <button className={styles.downloadButtons}><DownloadIcon/>Resume</button>
-                                <button className={styles.downloadButtons}><DownloadIcon/>Cover Letter</button>
+                                <DownloadButton
+                                    file="/pdf/JBCV.pdf"
+                                    title="CV"
+                                    buttonText="Resume"
+                                />
+                                <DownloadButton
+                                    file="/pdf/JBPB.pdf"
+                                    title="Cover Letter"
+                                    buttonText="Cover Letter"
+                                />
                             </div>
                         </div>
                     </div>
                 }
-                children2={<div>
-
-
+                children2={<div className={styles.secondCardContent}>
                     <div className={styles.aboutContainer}>
                         <div className={styles.presentation}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eveniet quaerat qui
-                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod. Aspernatur
+                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod.
+                            Aspernatur
                             dicta quam quo repellat veritatis voluptatibus.
                         </div>
                         <div className={styles.presentation}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eveniet quaerat qui
-                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod. Aspernatur
+                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod.
+                            Aspernatur
                             dicta quam quo repellat veritatis voluptatibus.
                         </div>
                         <div className={styles.presentation}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eveniet quaerat qui
-                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod. Aspernatur
+                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod.
+                            Aspernatur
                             dicta quam quo repellat veritatis voluptatibus.
                         </div>
 
                         <div className={styles.presentation}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eveniet quaerat qui
-                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod. Aspernatur
+                            reprehenderit velit. Amet, consequuntur cumque doloribus id illum nemo quisquam quod.
+                            Aspernatur
                             dicta quam quo repellat veritatis voluptatibus.
                         </div>
 
